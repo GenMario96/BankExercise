@@ -1,0 +1,16 @@
+Gestionale comprendente Correntista e Conto Corrente.
+Utente.
+Il correntista è un tipo di utente della Banca.
+Il correntista contiene: nome, cognome e CF (Primary key)
+Il conto contiene: numero conto, saldo.
+
+dobbiamo scegliere tra i veri procedimenti da attuare:
+1. inserimento utente
+2. modifica dati utenti (per fare modifica occorre fare ricerca per nome e cognome, e ricerca per CF)
+3. ordine correntisti per cognome da stampare
+4. prelievo da fare tramite numero del conto e anche per Codice fiscale
+5. versamenti
+6. Stampa (contenente in dettagli l'utente in considerazione e poi tutti i conti correnti)
+
+si può fare con 3 correntisti, ma sarebbe meglio renderlo dinamico, 
+inserendo inizialemnte quanti utenti bisogna prendere in considerazione
