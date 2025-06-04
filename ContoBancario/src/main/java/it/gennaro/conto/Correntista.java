@@ -98,9 +98,9 @@ public class Correntista extends Utente {
 			
 			conto.setNumeroConto(s.nextLine());
 			
-			System.out.println("Inserisci codice conto");
-			
-			conto.setSaldo(Integer.parseInt(s.nextLine()));
+                        System.out.println("Inserisci saldo iniziale");
+
+                        conto.setSaldo(Double.parseDouble(s.nextLine()));
 			
 			System.out.println(conto.getSaldo());
 			System.out.println(conto.getNumeroConto());
