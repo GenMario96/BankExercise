@@ -1,12 +1,10 @@
 package it.gennaro.conto;
 
-import java.util.ArrayList;
-
 public class Conto {
 
 	 String numeroConto;
 	 double saldo;
-	//ArrayList<Conto> contidue = new ArrayList<Conto>();
+
 
 	
 	
@@ -14,7 +12,6 @@ public class Conto {
 		super();
 		this.numeroConto = numeroConto;
 		this.saldo = saldo;
-	//	this.contidue = contidue;
 	}
 	
 	@Override
